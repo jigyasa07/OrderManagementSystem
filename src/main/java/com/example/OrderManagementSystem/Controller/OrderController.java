@@ -21,7 +21,6 @@ import java.util.concurrent.locks.ReentrantLock;
 public class OrderController {
     private final Map<String, Lock> orderLocks = new ConcurrentHashMap<>();
     private final OrderService orderService;
-
     private final String CANCEL_ORDER = "CANCELLED";
 
     @Autowired
