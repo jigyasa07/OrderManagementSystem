@@ -21,8 +21,6 @@
   }`
   * Response: Returns the created order.
   * Example Response:
-  HTTP/1.1 201 Created
-  Content-Type: application/json
   `{
   "id": "e877d381-b191-4b09-a74c-2e1c4b499d61",
   "userId": "1",
