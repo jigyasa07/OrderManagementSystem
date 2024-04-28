@@ -78,11 +78,11 @@
       "totalAmount": 23454.0
       }`
 * Cancel Order
-  * Endpoint: DELETE /orders/{orderId}
+  * Endpoint: PUT /orders/cancelOrder/{orderId}
   * Description: Cancels a specific order.
   * Path Variable: orderId (ID of the order to cancel).
   * Example Request:
-    `DELETE /orders/123456`
+    `PUT /orders/cancelOrder/e877d381-b191-4b09-a74c-2e1c4b499d61`
   * Response: Returns the canceled order if found, otherwise returns a 404 Not Found.
   * Example Response:
       `{
