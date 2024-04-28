@@ -1,4 +1,4 @@
-package com.example.git remote add origin .Model;
+package com.example.OrderManagementSystem.Model;
 
 public enum OrderStatus {
     PENDING,
